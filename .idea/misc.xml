@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="IdProvider" IDEtalkID="BC71C1E5DBEE30A27B8E28D1837F84BD" />
   <component name="JsBowerSettings">
     <exe-path>$USER_HOME$/.nvm/v0.10.25/bin/bower</exe-path>

@@ -39,13 +39,58 @@
 
             <p class="text-success">Way out west there was this fella.... fella I wanna tell ya about.</p>
         </div>
+
         <div class="row visible-md visible-lg">
-            <img src="images/carousel-1.jpg" alt="1"
-                 class="col-md-2 col-md-offset-2"/>
-            <img src="images/carousel-2.jpg" alt="2" class="col-md-2"/>
-            <img src="images/carousel-3.jpg" alt="3" class="col-md-2"/>
-            <img src="images/carousel-4.jpg" alt="4" class="col-md-2"/>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="carousel slide" id="theCarousel" data-interval="2000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#theCarousel" data-slide-to="1"></li>
+                        <li data-target="#theCarousel" data-slide-to="2"></li>
+                        <li data-target="#theCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/carousel-1.jpg" alt="1" class="img-responsive"/>
+                            <div class="carousel-caption">
+                                <h4>Bowling</h4>
+                                <p>Bowling is fun</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/carousel-2.jpg" alt="2" class="img-responsive"/>
+                            <div class="carousel-caption">
+                                <h4>The Dude</h4>
+                                <p>Bowling is fun</p>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <img src="images/carousel-3.jpg" alt="3" class="img-responsive"/>
+                            <div class="carousel-caption">
+                                <h4>Redemption</h4>
+                                <p>Bowling is fun</p>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <img src="images/carousel-4.jpg" alt="4" class="img-responsive"/>
+                            <div class="carousel-caption">
+                                <h4>Awards</h4>
+                                <p>Bowling is fun</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <a href="#theCarousel" class="carousel-control left" data-slide="prev"><span class="icon-prev"></span></a>
+                    <a href="#theCarousel" class="carousel-control right" data-slide="next"><span class="icon-next"></span></a>
+                </div>
+            </div>
         </div>
+        <hr/>
+
         <section id="main" class="col-md-8 col-sm-9">
 
             <p class="lead">Lebowski ipsum when will you find these guys? I mean, do you have any <strong>promising
